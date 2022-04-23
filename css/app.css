@@ -230,6 +230,27 @@ body {
 }
 
 /* ------------------------------------------------------- */
+/* RETO #4                                                 */
+/* ------------------------------------------------------- */
+.challenge-4__table,
+.challenge-4__table__body__data,
+.challenge-4__table__head__title{
+  border-width: 1px;
+  border-color: var(--bs-danger);
+  border-style: solid;
+  border-collapse: collapse;
+}
+
+.challenge-4__table__head{
+  border: inherit;
+}
+
+.challenge-4__table__head__title,
+.challenge-4__table__body__data{
+  padding: 4px 8px;
+}
+
+/* ------------------------------------------------------- */
 /* ESTILOS GENERALES                                       */
 /* ------------------------------------------------------- */
 .font-bold {
@@ -246,4 +267,14 @@ body {
 
 .text-danger{
   color: var(--bs-red);
+}
+
+.text-center{
+  text-align: center;
+}
+
+.w-50{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
