@@ -1,3 +1,35 @@
+:root {
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-gray-100: #f8f9fa;
+  --bs-gray-200: #e9ecef;
+  --bs-gray-300: #dee2e6;
+  --bs-gray-400: #ced4da;
+  --bs-gray-500: #adb5bd;
+  --bs-gray-600: #6c757d;
+  --bs-gray-700: #495057;
+  --bs-gray-800: #343a40;
+  --bs-gray-900: #212529;
+  --bs-primary: #0d6efd;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+}
 @import "./normalize.css";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
@@ -61,6 +93,12 @@ body {
 .challenge__list__link {
   text-decoration: none;
   color: inherit;
+  transition-property: opacity;
+  transition-duration: 200ms;
+}
+
+.challenge__list__link:hover{
+  opacity: 0.5;
 }
 
 .font-bold {
@@ -68,21 +106,77 @@ body {
 }
 
 /* ESTILOS PARA PINTAR LOS OBJETIVOS DEL RETO */
-.challenge-objective{
+.challenge-objective {
   padding: 1rem 4rem;
-  background-color: #BF7069;
+  background-color: var(--bs-gray-dark);
   margin-bottom: 2rem;
 }
 
-.challenge-objective__title{
-  color: #730202;
+.challenge-objective__title {
+  color: var(--bs-light);
   font-size: 2rem;
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
-.challenge-objective__description{
-  color: #000000DD;
+.challenge-objective__description {
+  color: var(--bs-light);
   line-height: 1.5;
   font-size: 1.2rem;
+}
+
+.challenge-objective__actions{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.challenge-objective__actions__link{
+  color: var(--bs-light);
+  text-decoration: none;
+  transition-property: opacity;
+  transition-duration: 200ms;
+}
+
+.challenge-objective__actions__link:hover{
+  opacity: 0.8;
+}
+
+/* Estilos reto #1 */
+.challenge-1__title{
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: var(--bs-dark);
+  text-align: center;
+}
+
+.challenge-1__fig{
+  width: 100%;
+  margin: 0;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.challenge-1__fig__img{
+  display: block;
+  width: 25%;
+  margin-bottom: 0.5rem;
+}
+
+.challenge-1__fig__description{
+  color: var(--bs-secondary);
+}
+
+.challenge-1__link{
+  display: block;
+  text-align: center;
+  color: var(--bs-dark);
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 200ms;
+}
+
+.challenge-1__link:hover{
+  color: var(--bs-secondary);
 }
