@@ -101,10 +101,6 @@ body {
   opacity: 0.5;
 }
 
-.font-bold {
-  font-weight: 700;
-}
-
 /* ESTILOS PARA PINTAR LOS OBJETIVOS DEL RETO */
 .challenge-objective {
   padding: 1rem 4rem;
@@ -179,4 +175,15 @@ body {
 
 .challenge-1__link:hover{
   color: var(--bs-secondary);
+}
+
+/* ------------------------------------------------------- */
+/* ESTILOS GENERALES                                       */
+/* ------------------------------------------------------- */
+.font-bold {
+  font-weight: 700;
+}
+
+.hidden{
+  display: none;
 }
