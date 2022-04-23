@@ -1,3 +1,11 @@
+@import "./normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+
 .index-body {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -5,35 +13,33 @@
   padding-bottom: 8rem;
   background-color: rgb(28, 39, 66);
   color: white;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
 }
 
-.logo-container{
+.logo-container {
   margin-bottom: 1rem;
   display: flex;
   justify-content: center;
 }
 
-.logo-container__img{
+.logo-container__img {
   display: block;
   width: 40%;
 }
 
-.challenges-container{
+.challenges-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   align-items: flex-start;
 }
 
-.challenge-group{
+.challenge-group {
   padding: 2rem 1rem;
   border: 1px solid;
   border-radius: 1rem;
 }
 
-.challenge-group__title{
+.challenge-group__title {
   margin: 0;
   margin-bottom: 1rem;
   text-align: center;
@@ -43,20 +49,20 @@
   letter-spacing: 2px;
 }
 
-.challenge__list{
+.challenge__list {
   margin: 0;
   font-size: 1.2rem;
 }
 
-.challenge__list_item{
+.challenge__list_item {
   padding: 0.2rem;
 }
 
-.challenge__list__link{
+.challenge__list__link {
   text-decoration: none;
   color: inherit;
 }
 
-.font-bold{
+.font-bold {
   font-weight: 700;
 }
