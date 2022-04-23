@@ -66,3 +66,23 @@ body {
 .font-bold {
   font-weight: 700;
 }
+
+/* ESTILOS PARA PINTAR LOS OBJETIVOS DEL RETO */
+.challenge-objective{
+  padding: 1rem 4rem;
+  background-color: #BF7069;
+  margin-bottom: 2rem;
+}
+
+.challenge-objective__title{
+  color: #730202;
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.challenge-objective__description{
+  color: #000000DD;
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
