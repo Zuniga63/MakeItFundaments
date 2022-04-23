@@ -1,0 +1,42 @@
+.grid {
+  display: grid;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grap-2 {
+  gap: 1rem;
+}
+
+.post__header {
+  background-color: var(--bs-dark);
+  padding: 4px;
+}
+
+.post__title {
+  color: var(--bs-light);
+  text-align: center;
+  font-size: 1rem;
+}
+
+.post__body {
+  background-image: url(../img/pexels-anna-shvets-5029929.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.post__content {
+  height: 100vh;
+  
+}
+
+.post__footer {
+  height: 200px;
+  background-color: var(--bs-gray-dark);
+  background-image: url(../../../../images/horizontal-white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
