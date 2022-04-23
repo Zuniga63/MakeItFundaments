@@ -44,7 +44,7 @@ body {
   padding-top: 4rem;
   padding-bottom: 8rem;
   background-color: rgb(28, 39, 66);
-  color: white;
+  color: var(--bs-light);
 }
 
 .logo-container {
