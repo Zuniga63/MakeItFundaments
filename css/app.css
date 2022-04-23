@@ -126,6 +126,17 @@ body {
   justify-content: flex-end;
 }
 
+.challenge-objective__fig{
+  display: flex;
+  justify-content: center;
+}
+
+.challenge-objective__fig__img{
+  display: block;
+  max-width: 600px;
+  border-radius: 8px;
+}
+
 .challenge-objective__actions__link{
   color: var(--bs-light);
   text-decoration: none;
@@ -196,12 +207,43 @@ body {
 }
 
 /* ------------------------------------------------------- */
+/* RETO #3                                                 */
+/* ------------------------------------------------------- */
+.challenge-3__container{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.challenge-3__list__title{
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.challenge-3__list__list--warning{
+  background-color: yellow;
+}
+
+.challenge-3__list__list--dark{
+  background-color: #000;
+  color: white;
+}
+
+/* ------------------------------------------------------- */
 /* ESTILOS GENERALES                                       */
 /* ------------------------------------------------------- */
 .font-bold {
   font-weight: 700;
 }
 
+.italic{
+  font-style: italic;
+}
+
 .hidden{
   display: none;
+}
+
+.text-danger{
+  color: var(--bs-red);
 }
