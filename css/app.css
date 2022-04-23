@@ -262,6 +262,24 @@ body {
 }
 
 /* ------------------------------------------------------- */
+/* RETO #6                                                 */
+/* ------------------------------------------------------- */
+.challenge-6__box{
+  padding: 30px;
+  border-color: var(--bs-red);
+  border-style: solid;
+  border-width: 2px;
+  margin: 20px;
+  height: 100px;
+  width: 500px;
+}
+
+.challenge-6__inline-box{
+  border-color: var(--bs-green);
+  border-style: solid;
+  border-width: 2px;
+}
+/* ------------------------------------------------------- */
 /* ESTILOS GENERALES                                       */
 /* ------------------------------------------------------- */
 .font-bold {
