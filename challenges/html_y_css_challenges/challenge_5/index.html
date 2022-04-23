@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reto #5</title>
+    <link rel="stylesheet" href="../../../css/app.css" />
+  </head>
+  <body>
+    <div class="challenge-objective">
+      <h1 class="challenge-objective__title">Reto #5: capturando información del usuario</h1>
+      <p class="challenge-objective__description">
+        Crea un formulario que recibirá la información de pedido de camisetas para una marca de ropa. El formulario debe
+        verse así:
+      </p>
+
+      <figure class="challenge-objective__fig">
+        <img
+          src="./images/reto-capturando-informacion-de-usuarios.png"
+          alt="Ejemplo del reto"
+          class="challenge-objective__fig__img"
+        />
+      </figure>
+
+      <div class="challenge-objective__actions">
+        <a href="../../../index.html" class="challenge-objective__actions__link"> Regresar al index</a>
+      </div>
+    </div>
+
+    <main class="w-50">
+      <form class="challenge-5__form">
+        <!-- Name -->
+        <fieldset class="challenge-5__form__fieldset">
+          <label for="name" class="challenge-5__form__label">Nombre</label>
+          <input type="text" name="name" id="name" class="challenge-5__form__input" />
+        </fieldset>
+        <!-- LastName -->
+        <fieldset class="challenge-5__form__fieldset">
+          <label for="lastName" class="challenge-5__form__label">Apellido</label>
+          <input type="text" name="lastName" id="lastName" class="challenge-5__form__input" />
+        </fieldset>
+        <!-- Email -->
+        <fieldset class="challenge-5__form__fieldset">
+          <label for="email" class="challenge-5__form__label">Correo</label>
+          <input type="text" name="email" id="email" class="challenge-5__form__input" />
+        </fieldset>
+        <!-- Color -->
+        <fieldset class="challenge-5__form__fieldset">
+          <label for="color" class="challenge-5__form__label">Color</label>
+          <select name="color" id="color" class="challenge-5__form__input">
+            <option value="">Seleciona un color.</option>
+            <option value="yellow">Amarillo</option>
+            <option value="green">Verde</option>
+            <option value="red">Rojo</option>
+          </select>
+        </fieldset>
+        <!-- Tallas -->
+        <fieldset class="challenge-5__form__fieldset challenge-5__form__fieldset--radio-container">
+          <label class="challenge-5__form__label">
+            <input type="radio" />
+            <span>Talla S</span>
+          </label>
+          <label class="challenge-5__form__label">
+            <input type="radio" name="" />
+            <span>Talla M</span>
+          </label>
+          <label for="" class="challenge-5__form__label">
+            <input type="radio" name=""/>
+            <span>Talla L</span>
+          </label>
+        </fieldset>
+        <!-- Comentario -->
+        <fieldset class="challenge-5__form__fieldset">
+          <label for="email" class="challenge-5__form__label">Comentario</label>
+          <textarea name="description" id="description" cols="30" rows="10"></textarea>
+        </fieldset>
+
+        <fieldset class="challenge-5__form__fieldset">
+          <input type="submit" value="Pedir">
+        </fieldset>
+
+      </form>
+    </main>
+  </body>
+</html>
