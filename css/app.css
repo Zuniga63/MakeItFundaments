@@ -137,7 +137,9 @@ body {
   opacity: 0.8;
 }
 
-/* Estilos reto #1 */
+/* ------------------------------------------------------- */
+/* RETO #1                                                 */
+/* ------------------------------------------------------- */
 .challenge-1__title{
   margin-top: 0;
   margin-bottom: 1rem;
@@ -175,6 +177,22 @@ body {
 
 .challenge-1__link:hover{
   color: var(--bs-secondary);
+}
+
+/* ------------------------------------------------------- */
+/* RETO #2                                                 */
+/* ------------------------------------------------------- */
+.challenge-2__title{
+  text-align: center;
+  color: var(--bs-danger);
+}
+
+.challenge-2__description{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.4;
+  color: var(--bs-green);
 }
 
 /* ------------------------------------------------------- */
