@@ -1,0 +1,43 @@
+@import "../../../../css/app.css";
+
+.container {
+  display: flex;
+  align-items: center;
+  background: #f5f5f2;
+  padding: 40px 10px;
+  border: 2px dashed #999;
+}
+
+.item {
+  background: #318FC3;
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  border-width: 2px;
+  border-style: solid;
+  border-color: transparent;
+  width: 60px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #407d42;
+  color: white;
+  font-size: 3rem;
+  width: 90px;
+  height: 90px;
+  margin: 20px;
+  border-radius: 50%;
+}
+
+.error {
+  border-color: red;
+}
+
+p {
+  font-size: 1.1rem;
+}

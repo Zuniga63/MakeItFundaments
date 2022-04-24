@@ -1,0 +1,24 @@
+.change-title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.change-title__value{
+  margin: 0;
+}
+
+.change-title__value > span {
+  font-weight: 700;
+}
+
+.border-green{
+  border-color: green;
+}
+
+.border-red{
+  border-color: red;
+}
